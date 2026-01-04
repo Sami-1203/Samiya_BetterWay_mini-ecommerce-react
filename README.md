@@ -5,36 +5,36 @@ The goal of the project is to build a simple yet functional shopping experience 
 # Features Implemented
 1. Product Listing
 
-Products are fetched from the DummyJSON API.
+- Products are fetched from the DummyJSON API.
 
-Products are displayed with image, title, price, and category.
+- Products are displayed with image, title, price, and category.
 
-Search functionality to filter products by name.
+- Search functionality to filter products by name.
 
-Category filter dropdown.
+- Category filter dropdown.
 
-Price-based sorting.
+- Price-based sorting.
 
 2. Add to Cart
 
-Users can add products to the cart.
+- Users can add products to the cart.
 
-If the product already exists in the cart, its quantity increases.
+- If the product already exists in the cart, its quantity increases.
 
-Cart state is managed globally using React state.
+- Cart state is managed globally using React state.
 
 3. Cart Page
 
-Dedicated cart page using React Router.
+- Dedicated cart page using React Router.
 
-Displays all added products with quantity and price.
+- Displays all added products with quantity and price.
 
-Shows empty cart message when no items are present.
+- Shows empty cart message when no items are present.
 
 4. Quantity Management
 
-Increase and decrease quantity buttons for each cart item.
+- Increase and decrease quantity buttons for each cart item.
 
-Automatically removes an item when quantity reaches zero.
+- Automatically removes an item when quantity reaches zero.
 
-Cart updates in real time.
+- Cart updates in real time.
