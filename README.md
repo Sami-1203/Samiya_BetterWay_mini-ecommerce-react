@@ -1,16 +1,40 @@
-# React + Vite
+# BetterWay Mini E-Commerce Application
+This project is a mini e-commerce web application developed as part of the BetterWay company assignment. The application demonstrates core frontend development skills using React, including product listing, cart management, routing, and state handling.
+The goal of the project is to build a simple yet functional shopping experience that allows users to browse products, add them to a cart, and manage item quantities.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features Implemented
+1. Product Listing
 
-Currently, two official plugins are available:
+Products are fetched from the DummyJSON API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Products are displayed with image, title, price, and category.
 
-## React Compiler
+Search functionality to filter products by name.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Category filter dropdown.
 
-## Expanding the ESLint configuration
+Price-based sorting.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Add to Cart
+
+Users can add products to the cart.
+
+If the product already exists in the cart, its quantity increases.
+
+Cart state is managed globally using React state.
+
+3. Cart Page
+
+Dedicated cart page using React Router.
+
+Displays all added products with quantity and price.
+
+Shows empty cart message when no items are present.
+
+4. Quantity Management
+
+Increase and decrease quantity buttons for each cart item.
+
+Automatically removes an item when quantity reaches zero.
+
+Cart updates in real time.
